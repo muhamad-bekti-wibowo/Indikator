@@ -1,0 +1,4 @@
+# Library methods & functions
+    Indikator KEYWORD2
+    ff KEYWORD2
+    write KEYWORD2

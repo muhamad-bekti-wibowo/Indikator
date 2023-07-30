@@ -1,5 +1,4 @@
 #include "Indikator.h"
-
   Indikator::Indikator(int PIN)
   {
     pinIO = PIN;
@@ -8,11 +7,11 @@
   void Indikator::ff(int TIMER)
   {
     TIMER = 1000000 / TIMER;
-    if (micros() - P_Millis >= TIMER)
+    if (micros() - Millis >= TIMER)
     {
       LED = !LED;
       digitalWrite(pinIO, LED);
-      P_Millis = micros();
+      Millis = micros();
     }
   }
 void Indikator::write(bool Condition)

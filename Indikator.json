@@ -1,0 +1,15 @@
+{
+    "name": "Indikator",
+    "keywords": "Manajement LEDs",
+    "description": "A library Manajement LED for Indikator",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/muhamad-bekti-wibowo/Indikator"
+    },
+    "frameworks": "arduino",
+    "platforms":
+    [
+      
+    ]
+  }
